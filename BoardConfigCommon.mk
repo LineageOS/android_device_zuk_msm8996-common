@@ -193,6 +193,10 @@ TARGET_USES_OLD_MNC_FORMAT := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-11-05
 
+# System as root
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+BOARD_KERNEL_CMDLINE += skip_initramfs rootwait ro init=/init root=/dev/dm-0
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
