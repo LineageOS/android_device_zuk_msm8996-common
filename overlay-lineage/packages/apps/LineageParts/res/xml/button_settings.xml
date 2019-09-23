@@ -41,11 +41,11 @@
                 android:summary="@string/navigation_bar_arrow_keys_summary"
                 android:defaultValue="false" />
 
-        <PreferenceScreen
+        <!--PreferenceScreen
             android:key="navigation_bar"
             android:title="@string/navigation_bar_title">
             <intent android:action="com.android.settings.action.NAV_BAR_TUNER" />
-        </PreferenceScreen>
+        </PreferenceScreen-->
 
         <ListPreference
             android:key="navigation_home_long_press"
