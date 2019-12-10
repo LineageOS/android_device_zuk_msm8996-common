@@ -150,7 +150,7 @@ DEVICE_SPECIFIC_GPS_PATH := $(VENDOR_PATH)/gps
 
 # HALs
 USE_DEVICE_SPECIFIC_MEDIA := true
-DEVICE_SPECIFIC_MEDIA_PATH := hardware/qcom/media-caf/msm8998
+DEVICE_SPECIFIC_MEDIA_PATH := hardware/qcom/media-caf/msm8996
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(VENDOR_PATH)/framework_manifest.xml
