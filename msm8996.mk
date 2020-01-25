@@ -144,6 +144,7 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.power.rc \
     init.qcom.usb.rc \
+    init.recovery.qcom.rc \
     init.wlan.sh \
     ueventd.qcom.rc
 
