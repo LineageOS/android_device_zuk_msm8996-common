@@ -71,8 +71,12 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|20e66aaca57c6ba6df800
 vendor/lib64/libbtnv.so|136dc47f7d16a841e9c6ad909753e96a41392534
 vendor/lib64/libbt-hidlclient.so|0b0b69ef9787e3cd5409f0050cad03698dd6ce26
 
-# Bluetooth ANT+ (vendor) - from daisy - PKQ1.180917.001.V10.0.16.0.PDLMIXM
-vendor/lib64/com.qualcomm.qti.ant@1.0.so|b35afe2c22970170a2164be199c65bb328a17383
+# ANT+ - from lavender - PKQ1.180904.001.V11.0.6.0.PFGINXM
+-lib/libantradio.so|d41385a586a43d1c1ed1e315b65fa26bd2393411
+lib64/com.qualcomm.qti.ant@1.0.so|29ecc1a9134dd2146f358e65c830059d3fa6c6d9
+-lib64/libantradio.so|68dd86841ef99508967f3bc28103bda402cee915
+vendor/lib64/com.qualcomm.qti.ant@1.0.so|05e6190e6feb2f23b86e1ce4517b73712465bb2d
+vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|50056005be5fe5a8420599dd70e4266abf6a9866
 
 # Bluetooth (shared dependencies) - from daisy - PKQ1.180917.001.V10.0.16.0.PDLMIXM
 lib64/vendor.qti.hardware.fm@1.0.so|32dd637f377d18e862ad24be7086a71a5fe52f71
