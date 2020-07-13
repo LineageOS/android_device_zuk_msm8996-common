@@ -15,8 +15,6 @@
 # limitations under the License.
 #
 
-BOARD_VENDOR := zuk
-
 VENDOR_PATH := device/zuk/msm8996-common
 
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
