@@ -77,14 +77,14 @@ function blob_fixup() {
 
     # Patch libmmcamera2_stats_modules
     vendor/lib/libmmcamera2_stats_modules.so)
-        sed -i "s|libgui.so|libfui.so|g" "${2}"
         sed -i "s|/data/misc/camera|/data/vendor/qcam|g" "${2}"
         "${PATCHELF}" --remove-needed libandroid.so "${2}"
+        "${PATCHELF}" --remove-needed libgui.so "${2}"
         ;;
 
     # Patch blobs for VNDK
     vendor/lib/libmmcamera_ppeiscore.so)
-        sed -i "s|libgui.so|libfui.so|g" "${2}"
+        "${PATCHELF}" --remove-needed libgui.so "${2}"
         ;;
     vendor/lib/libmpbase.so)
         "${PATCHELF}" --remove-needed libandroid.so "${2}"
