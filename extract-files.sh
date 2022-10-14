@@ -113,14 +113,6 @@ function blob_fixup() {
         "${PATCHELF}" --remove-needed libmedia.so "${2}"
         ;;
 
-    vendor/lib64/libsettings.so)
-        "${PATCHELF}" --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v28.so" "${2}"
-        ;;
-
-    vendor/lib64/libwvhidl.so)
-        "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite.so" "libprotobuf-cpp-lite-v28.so" "${2}"
-        ;;
-
     vendor/etc/permissions/qti_libpermissions.xml)
         sed -i 's|"android.hidl.manager-V1.0-java"|"android.hidl.manager@1.0-java"|' ${2}
         ;;
