@@ -416,6 +416,9 @@ service loc_launcher /vendor/bin/loc_launcher
     group gps
     writepid /dev/cpuset/system-background/tasks
 
+on property:persist.sys.xtra-daemon.enabled=*
+    restart vendor.loc_launcher
+
 service qcom-sh /vendor/bin/init.qcom.sh
     class late_start
     user root
