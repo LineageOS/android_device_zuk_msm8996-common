@@ -184,6 +184,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ZukDoze
 
+# DPM
+PRODUCT_PACKAGES += \
+    libcutils_shim
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.2.vendor \
@@ -383,10 +387,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_VERITY_PARTITION=/dev/block/bootdevice/by-name/system
 PRODUCT_VENDOR_VERITY_PARTITION=/dev/block/bootdevice/by-name/factory
 $(call inherit-product, build/target/product/verity.mk)
-
-# VNDK
-PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-sp/libcutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcutils-v29.so
 
 # Vibrator
 PRODUCT_PACKAGES += \

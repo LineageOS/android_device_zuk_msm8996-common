@@ -72,7 +72,9 @@ function blob_fixup() {
     case "${1}" in
 
     system_ext/lib64/libdpmframework.so)
-        sed -i "s/libhidltransport.so/libcutils-v29.so\x00\x00\x00/" "${2}"
+        for LIBDPM_SHIM in $(grep -L "libcutils_shim.so" "${2}"); do
+            "${PATCHELF}" --add-needed "libcutils_shim.so" "$LIBDPM_SHIM"
+        done
         ;;
 
     # Patch libmmcamera2_stats_modules
