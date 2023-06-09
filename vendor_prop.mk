@@ -38,7 +38,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     bluetooth.device.class_of_device=90,2,12 \
+    bluetooth.hardware.power.idle_cur_ma=0.01 \
     bluetooth.hardware.power.operating_voltage_mv=3300 \
+    bluetooth.hardware.power.rx_cur_ma=8 \
+    bluetooth.hardware.power.tx_cur_ma=7 \
     bluetooth.le.disable_apcf_extended_features=1 \
     bluetooth.profile.a2dp.source.enabled?=true \
     bluetooth.profile.avrcp.target.enabled?=true \
