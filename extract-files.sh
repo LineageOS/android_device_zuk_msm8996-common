@@ -167,6 +167,10 @@ function blob_fixup() {
         "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
         ;;
 
+    vendor/bin/pm-service)
+        grep -q libutils-v33.so "${2}" || "${PATCHELF}" --add-needed "libutils-v33.so" "${2}"
+        ;;
+
     # Rename vulkan.msm8953
     vendor/lib/hw/vulkan.msm8996.so | vendor/lib64/hw/vulkan.msm8996.so)
         "${PATCHELF}" --set-soname "vulkan.msm8996.so" "${2}"
