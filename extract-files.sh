@@ -71,6 +71,14 @@ fi
 function blob_fixup() {
     case "${1}" in
 
+    lib*/com.qualcomm.qti.ant@1.0.so)
+        "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+        ;;
+
+    system_ext/lib64/com.qualcomm.qti.imscmservice@1.0.so)
+        "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+        ;;
+
     system_ext/lib64/libdpmframework.so)
         for LIBDPM_SHIM in $(grep -L "libcutils_shim.so" "${2}"); do
             "${PATCHELF}" --add-needed "libcutils_shim.so" "$LIBDPM_SHIM"
@@ -133,6 +141,30 @@ function blob_fixup() {
 
     system_ext/etc/permissions/qti_libpermissions.xml)
         sed -i "s/name=\"android.hidl.manager-V1.0-java/name=\"android.hidl.manager@1.0-java/g" "${2}"
+        ;;
+
+    system_ext/lib64/lib-imsvt.so)
+        "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+        ;;
+
+    vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti | vendor/bin/hw/vendor.display.color@1.0-service | vendor/bin/ATFWD-daemon | vendor/bin/ims_rtp_daemon)
+        "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+        ;;
+
+    vendor/bin/imsrcsd)
+        "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+        ;;
+
+    vendor/lib64/libril-qc-qmi-1.so)
+        "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+        ;;
+
+    vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti)
+        "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+        ;;
+
+    vendor/bin/hw/vendor.qti.gnss@1.0-service)
+        "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
         ;;
 
     # Rename vulkan.msm8953
