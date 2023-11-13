@@ -45,7 +45,6 @@
 
         <activity
             android:name=".ButtonSettingsActivity"
-            android:theme="@style/Theme.SubSettingsBase"
             android:label="@string/button_panel_title"
             android:exported="false" >
             <intent-filter>

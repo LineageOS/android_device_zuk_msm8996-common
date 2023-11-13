@@ -13,7 +13,7 @@ LOCAL_USE_AAPT2 := true
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx.core_core \
-    org.lineageos.settings.resources
+    androidx.preference_preference
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
     org.lineageos.platform.internal
