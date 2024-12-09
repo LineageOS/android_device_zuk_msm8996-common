@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "690b7e1c_6ce12e63",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-09T17:36:45Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_xiaomi_msm8996-common/+/386853 then you probably wanna do https://review.lineageos.org/c/LineageOS/android_device_xiaomi_msm8996-common/+/387121 as well",
+      "revId": "af549c7c788d270cfd909b65ec46a5384687ed82",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
