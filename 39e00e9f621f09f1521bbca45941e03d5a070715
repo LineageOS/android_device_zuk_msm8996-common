@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a2387225_2917b7e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-09T16:36:59Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/q/I4c4783dc112102f127f3b1d796e206dcac672faf",
+      "revId": "39e00e9f621f09f1521bbca45941e03d5a070715",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
