@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5abaaef4_f9732b48",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-09T16:34:58Z",
+      "side": 1,
+      "message": "You don\u0027t need a separate commit dropping it, just switch to the QTI Vibrator AIDL. Refer to https://review.lineageos.org/q/I83d0c5f562c855afba563e7b959d3e0cd697ef26",
+      "revId": "7437ab4e2ee0dfb401391b186d2324b5b343f76b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
