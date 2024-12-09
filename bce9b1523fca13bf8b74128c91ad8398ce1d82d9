@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2facf66_a4c71ebe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-09T16:46:50Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/q/I59c23e7974cea1174b0161f31a535fa3afa1e5c9",
+      "revId": "bce9b1523fca13bf8b74128c91ad8398ce1d82d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ae5a793_08c986b7",
+        "filename": "rootdir/etc/init.qcom.power.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-09T16:46:50Z",
+      "side": 1,
+      "message": "You don\u0027t have to change this",
+      "revId": "bce9b1523fca13bf8b74128c91ad8398ce1d82d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
