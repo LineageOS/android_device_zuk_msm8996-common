@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ad36c7e_d1657b40",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 500,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-09T18:09:30Z",
+      "side": 1,
+      "message": "Why do you need two sections for the same source",
+      "revId": "3eabd9b373ed343d17a6ecafcf54dcfa251487a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16fc2238_de4b0369",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 696,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-09T18:09:30Z",
+      "side": 1,
+      "message": "Ditto",
+      "revId": "3eabd9b373ed343d17a6ecafcf54dcfa251487a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
