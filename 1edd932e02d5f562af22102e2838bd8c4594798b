@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c311b899_b74bf150",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-09T16:42:04Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_zuk_msm8996-common/+/374349",
+      "revId": "1edd932e02d5f562af22102e2838bd8c4594798b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
