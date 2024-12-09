@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "caf9febc_e61c1691",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-09T18:45:17Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_device_xiaomi_msm8996-common/commit/4588e0940f1d224db65ae25d184e24c21c74e36e, https://github.com/LineageOS/android_device_xiaomi_msm8996-common/commit/9837df66360cca4bde82b540c94994a3f084deb4, https://github.com/LineageOS/android_device_xiaomi_msm8996-common/commit/20bbdc5f14d10dae09ea36c0157883a6e0c3a51b, https://github.com/LineageOS/android_device_xiaomi_msm8996-common/commit/aa54e1a0dad5db252f7e8eb871f1e79e4432dccf, https://github.com/LineageOS/android_device_xiaomi_msm8996-common/commit/9e9bb8d34f96783dd447107c7c48119cafbda875, https://github.com/LineageOS/android_device_xiaomi_msm8996-common/commit/b7da29a0e1bfc33e9c2670db6d5b082cb7caa059",
+      "revId": "a47bf3dfb2556a0d3e42445001d9843311b1d240",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
