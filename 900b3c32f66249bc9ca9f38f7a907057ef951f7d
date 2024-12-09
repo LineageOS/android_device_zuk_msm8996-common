@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b57ef071_a5235f06",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-09T17:07:00Z",
+      "side": 1,
+      "message": "The second and third should already be there in lineage_whateverdevice.mk. For the first one - https://review.lineageos.org/q/I38053691f7724b5d6c30159c410d5d04ac136180",
+      "revId": "900b3c32f66249bc9ca9f38f7a907057ef951f7d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
