@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9be88b57_5d7dbea9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-09T17:59:35Z",
+      "side": 1,
+      "message": "Well the same thing I mentioned on \"Drop legacy HIDL vibrator\", you don\u0027t need two separate commits and fix the commit as on https://review.lineageos.org/q/I83d0c5f562c855afba563e7b959d3e0cd697ef26",
+      "revId": "473fed5d8a3239c135983af5bef477373ade5950",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
